@@ -19,17 +19,10 @@ try:
     import json
 except ImportError:
     import simplejson as json
-#import urllib2
-import urllib
 import codecs
-import time
-import datetime
-import os
-import random
 import time
 import tweepy
 from tweepy.parsers import RawParser
-import sys
 import argparse
 from auth import TwitterAuth
 
@@ -39,9 +32,11 @@ def logPrint(s, fhLog):
 
 def main():
 	parser = argparse.ArgumentParser()
-	parser.add_argument("-s", "--searchterm", help="Search terms separated by comma.")
-	parser.add_argument("-n", "--resultslimit", help="Total number of results the search should be limited to.")
+	parser.add_argument("-s", "--searchterm", default='coronavirus' ,help="Search terms separated by comma.")
+	parser.add_argument("-n", "--resultslimit", default=100, help="Total number of results the search should be limited to.")
 	args = parser.parse_args()
+#	sys.argv
+#	args = parser.parse_args(sys.argv[3:])  #if pycharm console
 	#only search term arugment is required
 	if args.searchterm is None:
 		parser.error("please add search term argument")
@@ -54,9 +49,14 @@ def main():
 	auth = tweepy.OAuthHandler(TwitterAuth.consumer_key, TwitterAuth.consumer_secret)
 	auth.set_access_token(TwitterAuth.access_token, TwitterAuth.access_token_secret)
 
-	api = tweepy.API(auth_handler=auth, parser=tweepy.parsers.JSONParser())
+	api = tweepy.API(auth_handler=auth, parser=tweepy.parsers.JSONParser(),
+					 wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
-	
+	try:
+		logPrint("Twitter API works! My twitter handler is @{}".format(api.me()['screen_name']), fhLog)
+	except:
+		logPrint("Twitter API does not work", fhLog)
+		raise SystemExit
 
 	termCnt=0
 	for term in terms:

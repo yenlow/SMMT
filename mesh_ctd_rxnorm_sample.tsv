@@ -1,0 +1,100 @@
+cui	resource	original_id	term	preferred_term	entity_type
+C0878412	MeSH desc (Chemicals and Drugs)	D000001	Antibiotic A23187	Calcimycin	chemical
+C0878412	MeSH desc (Chemicals and Drugs)	D000001	A23187	Calcimycin	chemical
+C0878412	MeSH desc (Chemicals and Drugs)	D000001	A23187, Antibiotic	Calcimycin	chemical
+C0878412	MeSH desc (Chemicals and Drugs)	D000001	A 23187	Calcimycin	chemical
+C0878412	MeSH desc (Chemicals and Drugs)	D000001	A-23187	Calcimycin	chemical
+C0000699	MeSH desc (Chemicals and Drugs)	D000001	Calcimycin	Calcimycin	chemical
+C0000714	MeSH desc (Chemicals and Drugs)	D000002	Temefos	Temefos	chemical
+C0000714	MeSH desc (Chemicals and Drugs)	D000002	Temephos	Temefos	chemical
+C0878195	MeSH desc (Chemicals and Drugs)	D000002	Abate	Temefos	chemical
+C0878196	MeSH desc (Chemicals and Drugs)	D000002	Difos	Temefos	chemical
+C0000727	MeSH desc (Diseases)	D000006	Abdomens, Acute	Abdomen, Acute	disease
+C0000727	MeSH desc (Diseases)	D000006	Acute Abdomens	Abdomen, Acute	disease
+C0000727	MeSH desc (Diseases)	D000006	Abdomen, Acute	Abdomen, Acute	disease
+C0000727	MeSH desc (Diseases)	D000006	Acute Abdomen	Abdomen, Acute	disease
+C0848377	MeSH desc (Diseases)	D000007	Injuries, Abdominal	Abdominal Injuries	disease
+C0848377	MeSH desc (Diseases)	D000007	Abdominal Injuries	Abdominal Injuries	disease
+C0848377	MeSH desc (Diseases)	D000007	Injury, Abdominal	Abdominal Injuries	disease
+C0848377	MeSH desc (Diseases)	D000007	Abdominal Injury	Abdominal Injuries	disease
+C0000735	MeSH desc (Diseases)	D000008	Neoplasms, Abdominal	Abdominal Neoplasms	disease
+C0000735	MeSH desc (Diseases)	D000008	Neoplasm, Abdominal	Abdominal Neoplasms	disease
+C0000735	MeSH desc (Diseases)	D000008	Abdominal Neoplasms	Abdominal Neoplasms	disease
+C0000735	MeSH desc (Diseases)	D000008	Abdominal Neoplasm	Abdominal Neoplasms	disease
+C0000742	MeSH desc (Organisms)	D000011	Abelson murine leukemia virus	Abelson murine leukemia virus	organism
+C0000742	MeSH desc (Organisms)	D000011	Virus, Abelson Leukemia	Abelson murine leukemia virus	organism
+C0000742	MeSH desc (Organisms)	D000011	Leukemia Virus, Abelson	Abelson murine leukemia virus	organism
+C0000742	MeSH desc (Organisms)	D000011	Abelson Leukemia Virus	Abelson murine leukemia virus	organism
+C0000744	MeSH desc (Diseases)	D000012	Acanthocytoses	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Diseases, Betalipoprotein Deficiency	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Betalipoprotein Deficiency Diseases	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Acanthocytosis	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Disease, Betalipoprotein Deficiency	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Bassen Kornzweig Disease	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Bassen Kornzweig Syndrome	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Bassen-Kornzweig Disease	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Betalipoprotein Deficiency Disease	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Deficiency Disease, Betalipoprotein	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Abetalipoproteinemia	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Bassen-Kornzweig Syndrome	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Deficiency Diseases, Betalipoprotein	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Microsomal Triglyceride Transfer Protein Deficiency	Abetalipoproteinemia	disease
+C0000744	MeSH desc (Diseases)	D000012	Microsomal Triglyceride Transfer Protein Deficiency Disease	Abetalipoproteinemia	disease
+C0000768	MeSH desc (Diseases)	D000013	Birth Defect	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Congenital Abnormality	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Congenital Defects	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Deformity	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Defects, Congenital	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Abnormality, Congenital	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Defect, Congenital	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Congenital Defect	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Defect, Birth	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Defects, Birth	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Birth Defects	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Abnormalities, Congenital	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Congenital Abnormalities	Congenital Abnormalities	disease
+C0000768	MeSH desc (Diseases)	D000013	Deformities	Congenital Abnormalities	disease
+C0000771	MeSH desc (Diseases)	D000014	Abnormalities, Drug-Induced	Abnormalities, Drug-Induced	disease
+C0000771	MeSH desc (Diseases)	D000014	Drug-Induced Abnormalities	Abnormalities, Drug-Induced	disease
+C0000771	MeSH desc (Diseases)	D000014	Drug-Induced Abnormality	Abnormalities, Drug-Induced	disease
+C0000771	MeSH desc (Diseases)	D000014	Abnormalities, Drug Induced	Abnormalities, Drug-Induced	disease
+C0000771	MeSH desc (Diseases)	D000014	Drug Induced Abnormalities	Abnormalities, Drug-Induced	disease
+C0000771	MeSH desc (Diseases)	D000014	Abnormality, Drug-Induced	Abnormalities, Drug-Induced	disease
+C0000772	MeSH desc (Diseases)	D000015	Multiple Abnormalities	Abnormalities, Multiple	disease
+C0000772	MeSH desc (Diseases)	D000015	Abnormalities, Multiple	Abnormalities, Multiple	disease
+C0000773	MeSH desc (Diseases)	D000016	Radiation Induced Abnormalities	Abnormalities, Radiation-Induced	disease
+C0000773	MeSH desc (Diseases)	D000016	Radiation-Induced Abnormalities	Abnormalities, Radiation-Induced	disease
+C0000773	MeSH desc (Diseases)	D000016	Radiation-Induced Abnormality	Abnormalities, Radiation-Induced	disease
+C0000773	MeSH desc (Diseases)	D000016	Abnormality, Radiation-Induced	Abnormalities, Radiation-Induced	disease
+C0000773	MeSH desc (Diseases)	D000016	Abnormalities, Radiation Induced	Abnormalities, Radiation-Induced	disease
+C0000773	MeSH desc (Diseases)	D000016	Abnormalities, Radiation-Induced	Abnormalities, Radiation-Induced	disease
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	Blood Groups, ABH	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	ABH Blood Groups	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	Blood-Group System, ABO	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	ABO Blood Group System	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	Blood Group, H	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	ABO Blood-Group Systems	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	Blood Group, ABH	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	H Blood Group System	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	ABH Blood Group	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	Blood Groups, H	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	H Blood Group	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	Systems, ABO Blood-Group	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	H Blood Groups	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	ABO Blood-Group System	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	System, ABO Blood-Group	ABO Blood-Group System	chemical
+C0000778	MeSH desc (Chemicals and Drugs)	D000017	Blood-Group Systems, ABO	ABO Blood-Group System	chemical
+C0005805	MeSH desc (Chemicals and Drugs)	D000017	Blood Group H Type 1 Antigen	ABO Blood-Group System	chemical
+C0000779	MeSH desc (Chemicals and Drugs)	D000017	ABO Factor	ABO Blood-Group System	chemical
+C0000779	MeSH desc (Chemicals and Drugs)	D000017	Factor, ABO	ABO Blood-Group System	chemical
+C0000779	MeSH desc (Chemicals and Drugs)	D000017	ABO Factors	ABO Blood-Group System	chemical
+C0000779	MeSH desc (Chemicals and Drugs)	D000017	Factors, ABO	ABO Blood-Group System	chemical
+C3179338	MeSH desc (Chemicals and Drugs)	D000019	Abortifacient Effects	Abortifacient Agents	chemical
+C3179338	MeSH desc (Chemicals and Drugs)	D000019	Abortifacient Effect	Abortifacient Agents	chemical
+C3179338	MeSH desc (Chemicals and Drugs)	D000019	Effect, Abortifacient	Abortifacient Agents	chemical
+C3179338	MeSH desc (Chemicals and Drugs)	D000019	Effects, Abortifacient	Abortifacient Agents	chemical
+C0000782	MeSH desc (Chemicals and Drugs)	D000019	Agents, Postconception Contraceptive	Abortifacient Agents	chemical
+C0000782	MeSH desc (Chemicals and Drugs)	D000019	Postconception Contraceptive Agents	Abortifacient Agents	chemical
+C0000782	MeSH desc (Chemicals and Drugs)	D000019	Abortifacients	Abortifacient Agents	chemical
+C0000782	MeSH desc (Chemicals and Drugs)	D000019	Abortifacient Agents	Abortifacient Agents	chemical
+C0000782	MeSH desc (Chemicals and Drugs)	D000019	Contraceptive Agents, Postconception	Abortifacient Agents	chemical

@@ -17,13 +17,8 @@
 
 from spacy.lang.en import English
 from spacy.pipeline import EntityRuler
-import csv
-import spacy
-import glob
-import os
-import argparse
-import pickle
-import json
+import csv, json
+import argparse, sys
 
 def tagged_docs(docs,name):
 	counter = 0.0
@@ -48,7 +43,6 @@ def bratFormat(description,desc,fO,i):
 		for ent in desc.ents:
 			fO.write("T" + str(i) + "\t" + str(ent.label_) + "\t" + str(ent.start_char) + "\t" + str(ent.end_char) + "\t" + str(ent.text) + "\n")
 
-
 def textAnFormat(description,desc,fO):
 		text = "text"
 		obj = "DrugTerm"
@@ -67,16 +61,20 @@ def textAnFormat(description,desc,fO):
 					fO.write(",")
 			fO.write("] }" + "\n")
 
+
 parser = argparse.ArgumentParser()
    
 parser.add_argument('-d', help="Dictionary file with extension", required=True)
 parser.add_argument('-i',  help="Input file name with extension", required=True)
 parser.add_argument('-o',  help="Output file name with extension", required=True)
-parser.add_argument('-f',  help="format f the annotation", default = "g")
-
+# parser.add_argument('-d', help="Dictionary file with extension", default='mydict.tsv')
+# parser.add_argument('-i',  help="Input file name with extension", default='trump.tsv')
+# parser.add_argument('-o',  help="Output file name with extension", default='out.json')
+parser.add_argument('-f',  help="format f the annotation", default='g')
 
 
 args = parser.parse_args()
+#args = parser.parse_args(sys.argv[3:])  #if pycharm console
 dictionary_filename = args.d
 input_file = args.i
 output_file = args.o
@@ -84,12 +82,12 @@ format_given = args.f
 #print(format_given)
 
 temp = open(dictionary_filename)
-dictionary_file = csv.reader(temp, delimiter=',')
+dictionary_file = csv.reader(temp, delimiter='\t')
 patterns = []
 i = 0
 for product in dictionary_file:
 	if i ==0:
-		i = i +1
+		i += 1
 		continue
 	patterns.append({"label":product[0],"pattern":product[1]})
 
@@ -103,7 +101,7 @@ ruler.add_patterns(patterns)
 nlp.add_pipe(ruler)
 
 products_raw = open(input_file)
-products = csv.reader(products_raw,delimiter='\t')
+products = csv.reader(products_raw, delimiter='\t')
 extended_docs={}
 
 if (format_given is "g"):
@@ -136,7 +134,7 @@ for product in products:
 		desc = nlp(description)
 		textAnFormat(description, desc, fO)
 
-	i = i+1
+	i += 1
 
 
 products_raw.close()

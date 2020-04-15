@@ -90,3 +90,32 @@ We are very grateful for the support on this work.
 # Proposed functionality of SMMT V1.0
 
 ![Architecture](http://www.jmbanda.com/SMMT-v1.png)
+
+
+# Example
+#### 1. Data acquisition with query terms (-> json dumps)
+```
+python data_acquisition/search_generic.py -s "trump,coronavirus" -n 100
+```
+#### 2. Data pre_processing (parse json -> tsv)
+```
+python data_preprocessing/parse_json_lite.py "trump.json"
+python data_preprocessing/parse_json_lite.py "coronavirus.json"
+```
+
+#### 3. Create dictionary
+Download dictionary (e.g. mesh.tsv) from [BioTermHub](https://pub.cl.uzh.ch/projects/ontogene/biotermhub/) with the following format:
+```
+cui	        resource	                    original_id	term	    preferred_term	entity_type
+C0878412	MeSH desc (Chemicals and Drugs)	D000001	    A-23187	    Calcimycin	    chemical
+C0000699	MeSH desc (Chemicals and Drugs)	D000001	    Calcimycin	Calcimycin	    chemical
+```
+Create dictionary of CUI and term
+```
+python data_annotationANDstandardization/create_dictionary.py -i mesh_ctd_rxnorm.tsv -o mydict.tsv
+```
+
+#### 4. NER using dictionary from Step 3
+```
+python data_annotationANDstandardization/SMMT_NER_basic.py -i trump.tsv -d mydict.tsv -o ner_trump.json -f g
+```
